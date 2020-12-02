@@ -1,1 +1,2 @@
 学习笔记
+dao 层应该直接抛出sql.ErrNoRows不wrap，上层接收到错误后再wrap
